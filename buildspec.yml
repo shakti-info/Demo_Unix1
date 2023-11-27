@@ -5,7 +5,7 @@ phases:
     commands:
        - echo Installing NGINX
        - sudo yum update -y
-       - yum install nginx -y
+       - sudo yum install nginx
     build:
       command:
        - echo Build started on 'date'
